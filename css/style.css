@@ -1,0 +1,96 @@
+@import url(colors.css);
+@import url(typography.css);
+@import url(components.css);
+@import url(blog.css);
+@import url(social.css);
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100px 50px 1fr 50px;
+    grid-template-areas:
+        "hd hd"
+        "nav nav"
+        "main main"
+        "ft ft";
+}
+
+.cards {
+    display: flex;
+    justify-content: flex-start;
+    grid-area: main;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+}
+
+.box {
+    padding: 1rem 1rem 1rem;
+    border: 1px solid white;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.header {
+    grid-area: hd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/old-faithful.PNG");
+}
+
+.nav {
+    grid-area: nav;
+    background-color: var(--color-accent);
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.content {
+    grid-area: main;
+}
+
+.footer {
+    grid-area: ft;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    font-style: italic;
+    font-weight: 200;
+}
+
+/* responsive layout for larger screens */
+@media(min-width: 900px) {
+    .container {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 100px 50px 1fr 50px;
+        grid-template-areas:
+            "hd hd hd hd hd hd hd hd"
+            "nav nav nav nav nav nav nav nav"
+            "main main main main main main main main"
+            "ft ft ft ft ft ft ft ft";
+    }
+
+}

@@ -1,0 +1,101 @@
+/* buttons */
+.button-dark {
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--color-dark);
+    padding: 4px;
+    border: 1px solid var(--color-accent);
+    border-radius: 6%;
+    color: var(--color-light);
+    margin: 10px 0;
+}
+
+.button-dark:hover {
+    color: var(--color-dark);
+    background-color: var(--color-accent);
+    text-align: none;
+}
+
+.button-light {
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--color-light);
+    padding: 4px;
+    border: 1px solid var(--color-accent);
+    border-radius: 6%;
+    color: var(--color-dark);
+    margin: 10px 0;
+}
+
+.button-light:hover {
+    background-color: var(--color-accent);
+    text-align: none;
+}
+
+.button-accent {
+    font-size: 0.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: var(--color-accent);
+    padding: 4px;
+    border: 1px solid var(--color-dark);
+    border-radius: 6%;
+    color: var(--color-dark);
+    margin: 10px 0;
+}
+
+.button-accent:hover {
+    background-color: var(--color-light);
+    text-align: none;
+}
+
+/* cards */
+.card-light {
+    min-width: 100px;
+    max-width: 400px;
+    background-color: var(--color-light);
+    border-radius: 4%;
+    color: var(--color-dark);
+    margin: 5px 5px;
+}
+
+.card-light:hover {
+    box-shadow: 3px 3px 6px var(--color-accent);
+}
+
+.card-dark {
+    min-width: 100px;
+    max-width: 400px;
+    background-color: var(--color-dark);
+    border-radius: 4%;
+    color: var(--color-dark);
+    margin: 5px 5px;
+}
+
+.card-dark:hover {
+    box-shadow: 3px 3px 6px var(--color-accent);
+}
+
+.card-text-dark {
+    color: var(--color-dark);
+    padding: 1rem;
+}
+
+.card-text-light {
+    color: var(--color-light);
+    padding: 1rem;
+}
+
+.card-image{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+}
+
+.card-location{
+    color: var(--color-accent);
+}

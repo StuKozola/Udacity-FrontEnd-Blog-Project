@@ -1,0 +1,16 @@
+/* custom colors */
+:root {
+    /* colors */
+    --color-dark: black;
+    --color-light: white;
+    --color-accent: #ff9500;
+    }
+
+/* colors */
+.bg-dark { background-color:var(--color-dark); }
+.bg-light { background-color: var(--color-light); }
+.bg-accent { background-color:var(--color-accent); }
+
+.text-dark { color: var(--color-dark); }
+.text-light { color: var(--color-light); }
+.text-accent { color: var(--color-accent); }

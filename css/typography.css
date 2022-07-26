@@ -1,0 +1,49 @@
+/* font definitions */
+:root{
+    --font-serif: "Roboto", serif;
+    --font-sans-cond: "Roboto Condensed", sans-serif;
+    --font-sans-normal: "Roboto", sans-serif;
+}
+
+/* typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    margin: 0;
+}
+h1 { font-size: 75px ; }
+h2 { font-size: 50px; }
+h3 { font-size: 32px; }
+h4 { font-size: 24px; }
+h5 { font-size: 18px; }
+p { font-size: 14px; }
+b { font-weight: 800; }
+
+blockquote {
+    border-style: double;
+    border-color: var(--color-accent);
+    padding: 0.5rem;
+    font-size: 14px;
+    font-family: var(--font-sans-cond);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.title {
+    text-transform: uppercase;
+    letter-spacing: 4.72px;
+    margin: 2rem 0;  
+}
+.title span {
+    font-weight: 700;
+    color: var(--color-accent);
+}
+
