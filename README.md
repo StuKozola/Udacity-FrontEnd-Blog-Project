@@ -3,9 +3,10 @@
 A personal website built from scratch using HTML and CSS only.  This site is an example of a personal blog website that is repsonsive to screen resolution (breakpoint is 900 pixels)
 
 ### Live Webpages
-- [Homepage]()
-- [Blog page]()
-- [Design System]()
+- [Design System](https://stukozola.github.io/Udacity-FrontEnd-Blog-Project/design-system.html)
+- [Homepage](https://stukozola.github.io/Udacity-FrontEnd-Blog-Project/)
+- [Blog page](https://stukozola.github.io/Udacity-FrontEnd-Blog-Project/blogs/latest.html)
+
 
 ## Example Sreenshots
 
